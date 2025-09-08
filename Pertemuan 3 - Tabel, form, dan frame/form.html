@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title> belajar form </title>
+
+	<style>
+		.frame {
+			width: 200px;
+			border-style: solid;
+			border-color: green;
+			border-width: 5px;
+			margin: 10px 10px;
+			padding: 10px 10px;
+			text-align: left;
+			border-radius: 15px;
+		}
+		input[type=submit] {
+			padding: 16px 32px;
+			color: white;
+			width: 160px;
+			border-radius: 10px;
+			margin: 10px 2px;
+		}
+
+		.title {
+			color: green;
+			font-size: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="frame">
+	<p class="title">Registration Form</p>
+	<br>
+	<form method="post">
+	Full Name:<br>
+	<input type="text" name="name" size="20"><br>
+	Email:<br>
+	<input type="text" name="email" size="20"><br>
+	Password:<br>
+	<input type="password" name="password" size="20"><br>
+	Re-type Password:<br>
+	<input type="password" name="password" size="20"><br>
+	Contact:<br>
+	<input type="text" name="contact" size="20"><br>
+	Gender:<br>
+	<select name="gender" style="width:165">
+		<option value="M">Male<br>
+		<option value="F">Female<br>
+	</select>
+	<br>
+	<input type="submit" value="Submit" name="submit" style="background-color:green">
+	</form>
+	</div>
+</body>
+</html>
