@@ -10,4 +10,7 @@ dalam percobaaan ini, saya menerapkan atribut tabel seperti rowspan, colspan, da
 ini merupakan percobaan membuat form saya:\
 <img width="255" height="461" alt="image" src="https://github.com/user-attachments/assets/be3bd674-a8aa-4774-ade6-58d3ed9b462f" />\
 \
-dalam percobaan ini, saya menerapkan input dengan tipe text, password, dan select. Saya juga menggunakan sedikit embedded dan inline css.
+dalam percobaan ini, saya menerapkan input dengan tipe text, password, dan select. Saya juga menggunakan sedikit embedded dan inline css.\
+yang berikut ini adalah percobaan membuat frame saya:\
+<img width="1366" height="656" alt="image" src="https://github.com/user-attachments/assets/4cd277a3-d789-4a24-a71b-df30fe0b1cac" />\
+disini saya menggunakan nested frameset dan atribut rows dan cols untuk masing-masing, disini sepertinya juga walaupun src file nya tidak ada, tetap mendefault ke file yang ada, yakni file tabel.html dan form.html saya
