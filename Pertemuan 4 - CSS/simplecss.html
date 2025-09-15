@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Simple Style Sheet</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.portfolio {
+			display: grid;
+			grid-template-columns: auto auto auto auto;
+			column-gap: 20px;
+		}
+		.box {
+			border: 3px solid gray;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+		.name {
+			font-size: 20px;
+			text-align: center;
+			background-color: teal;
+			color: white;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.header {
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.content {
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>GeeksForGeeks</h1>
+	<b>A Computer Science Portal for Geeks</b>
+	<hr>
+	<p>Portfolio</p>
+
+	<div class="portfolio">
+		<div class="box">
+			<div class="name">HTML</div>
+			<div class="content">
+				<div class="header">HTML Tutorials</div>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea harum hic, at accusamus reiciendis tenetur nam blanditiis repudiandae consequuntur temporibus natus dolorem asperiores et, porro aut impedit commodi soluta.
+			</div>
+		</div>
+		<div class="box">
+			<div class="name">CSS</div>
+			<div class="content">
+				<div class="header">CSS Tutorials</div>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia blanditiis consequuntur quo non minima rerum repudiandae, eius sunt ea quae officia obcaecati nobis aliquam maiores neque asperiores. Facere, veniam harum.
+			</div>
+		</div>
+		<div class="box">
+			<div class="name">PHP</div>
+			<div class="content">
+				<div class="header">PHP Tutorials</div>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Non adipisci vitae facilis eos, recusandae est sunt harum aliquid ea excepturi expedita voluptatibus id sapiente qui quasi. Sint delectus accusantium maiores?
+			</div>
+		</div>
+		<div class="box">
+			<div class="name">JAVASCRIPT</div>
+			<div class="content">
+				<div class="header">JAVASCRIPT Tutorials</div>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quia, non possimus quo rerum tenetur, recusandae unde neque adipisci, nam molestias aliquam error iste excepturi ex quaerat sunt nostrum impedit?
+			</div>
+		</div>
+	</div>
+</body>
+</html>
