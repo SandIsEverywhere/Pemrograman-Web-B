@@ -8,6 +8,8 @@ Pada pertemuan ke-5 ini, saya belajar tentang menggunakan javascript untuk membu
 \
 Disini saya mengimplementasikan datalist untuk suggestion dan membuat sebuah fungsi validasi untuk mendeteksi input yang kosong.\
 \
+Untuk Task kedua yang merupakan menggunakan query untuk mencari kode pos suatu daerah, saya masih belum bisa implementasi secara benar (22/9/2025).
+\
 Task ketiga adalah membuat dropdown dinamis, dimana opsi dropdown kedua terpengaruh oleh pilihan dropdown sebelumnya, berikut adalah percobaan saya:\
 <img width="248" height="243" alt="image" src="https://github.com/user-attachments/assets/816a546a-e1f7-429f-a9cc-3a6ac7e617bf" />
 <img width="307" height="286" alt="image" src="https://github.com/user-attachments/assets/b7689413-063a-4560-84ee-dd00579b6ebf" />
