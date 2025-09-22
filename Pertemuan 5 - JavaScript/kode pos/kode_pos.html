@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Kode Pos</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="header">Kode Pos Indonesia</div>
+        <div class="content">
+            <div class="query">
+                cari kode pos
+                <form action="" name="form1">
+                    <label>Provinsi</label>
+                    <select name="Provinsi" id="Provinsi" onchange="selectKota();">
+                        <option value="">Pilih Provinsi</option>
+                        <option value="Bali">Bali</option>
+                        <option value="DKI Jakarta">DKI Jakarta</option>
+                        <option value="Jawa Barat">Jawa Barat</option>
+                        <option value="Jawa Tengah">Jawa Tengah</option>
+                        <option value="Jawa Timur">Jawa Timur</option>
+                        <option value="Kalimantan Timur">Kalimantan Timur</option>
+                        <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+                        <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+                        <option value="Papua">Papua</option>
+                        <option value="Papua Barat">Papua Barat</option>
+                        <option value="Riau">Riau</option>
+                        <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                        <option value="Sumatra Barat">Sumatra Barat</option>
+                        <option value="Sumatra Utara">Sumatra Utara</option>
+                        <option value="DIY">DIY</option>
+                    </select>
+                    <label>Kabupaten/Kota</label>
+                    <select name="Kota" id="Kota">
+                        <option value="">Pilih Kabupaten/Kota</option>
+                    </select>
+                    <label>Kata kunci pencarian</label>
+                    <input type="text" class="search">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
