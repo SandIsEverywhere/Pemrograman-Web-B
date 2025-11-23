@@ -28,7 +28,7 @@ if (empty($foto)) {
     $sql->bindParam(':telp', $telp);
     $sql->bindParam(':alamat', $alamat);
     $sql->bindParam(':id', $id);
-    $sql->execute()
+    $sql->execute();
 
     // Eksekusi query
     if ($sql) {
@@ -81,4 +81,5 @@ if (empty($foto)) {
         echo "<br><a href='form_ubah.php'>Kembali Ke Form</a>";
     }
 }
+
 ?>
